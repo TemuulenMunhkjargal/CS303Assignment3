@@ -1,0 +1,65 @@
+/////////////////Question 3\\\\\\\\\\\\\\\\\\\
+
+Inorder: x/y+3*b/c
+
+		[+]
+	   / \____
+	 [%]       \
+	 / \       [*]
+   [x] [y]    / \
+		    [3] [b]
+
+Postorder: xyz+ab-c*/-
+
+	     ___[-]______
+		/            \
+	   [+]           [%]
+	 /  |  \        /   
+   [x]  [y]  [z]   [*]---[c]
+                  / | 
+			   [a] [b]
+
+Preorder: *+a-xy/cd
+
+				[*]__
+			   /     \
+			 [+]     [-]_______
+			/       /   \     / \
+		   [a]     [x]  [y] [d] [c]
+
+/////////////////Question 4\\\\\\\\\\\\\\\\\\\
+
+Considered the output of a to_string method below and show the tree that
+would be built by the following data lines is the binary search tree.
+30
+15
+4
+Null
+Null
+20
+18
+Null
+19
+Null
+Null
+Null
+35
+32
+Null
+Null
+38
+Null
+Null
+
+Because a binary search tree has lower values on the left and higher values on the right, using preorder traversal 30 is the root number.
+And so on until the tree looks like this (excluded Null pointers)
+
+								___[30]___
+							   /          \
+							 [15]         [35]
+							/    \       /
+						  [4]    [20]  [32]
+								  /        \
+								[18]        [38]
+								    \
+									 [19]
