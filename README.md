@@ -1,5 +1,7 @@
 # CS303Assignment3
+
 Repository for CS303 Assignment 3, Temuulen Munkhjargal
+
 Written in VisualStudio 2019, run Assignment3.sln inside the Assignment 3 folder.
 
 Pic of the palindrome function and queue movetoRear function in output, the queue was originally (10,130,120)
